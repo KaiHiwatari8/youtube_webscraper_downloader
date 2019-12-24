@@ -25,7 +25,6 @@ class index(tk.Frame):
         self.text = tk.Message(self, text=details)
         self.text.grid(row=3, column=0, columnspan=2, pady=10, ipady=5)
 
-
     def download(self, url):
         pass
 
